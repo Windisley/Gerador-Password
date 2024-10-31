@@ -23,9 +23,9 @@ buttonAdd.addEventListener("click", ()=>{
         
         if(content.length > 0){
             $textarea.value = ""
-           content.map((item)=>{
-            $textarea.value += item
-           })
+          
+            $textarea.value += content.join("")
+          
         }
 
         
