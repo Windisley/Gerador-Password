@@ -22,7 +22,7 @@ body{
 }
 
 .container .cont-generates{
-    width: 100%;
+    width: 90%;
     max-width: 800px;
     min-height: 100%;
     padding: 1rem;
@@ -83,6 +83,23 @@ body{
 
 .container .cont-generates .box-generates .boxbutton button:hover{
     background-color: #333;
+}
+
+@media (width < 600px){
+    .container .cont-generates .box-generates{
+        flex-direction: column;
+    }
+
+    .container .cont-generates .box-generates .boxbutton{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .container .cont-generates .box-generates .boxbutton button{
+        font-size: .7rem;
+        padding: 8px 15px;
+    }
+
 }
 
 
