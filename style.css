@@ -59,11 +59,37 @@ body{
    width: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: .6rem;
 
 }
+
+.container .cont-generates .box-generates .incCaractere{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container .cont-generates .box-generates .incCaractere p{
+    text-align: center;
+    font-size: .8rem;
+    text-transform: capitalize;
+    
+}
+
+.container .cont-generates .box-generates .incCaractere input{
+    text-align: center;
+    max-width: 80px;
+    font-size: 1rem;
+    padding: 3px 8px;
+
+}
+
+
 
 .container .cont-generates .box-generates .boxbutton button{
   text-align: center;
